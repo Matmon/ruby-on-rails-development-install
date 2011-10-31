@@ -31,7 +31,7 @@ What it sets up
 * Homebrew or apt-get (for managing operating system libraries)
 * Ack (for finding things in files)
 * Tmux (for saving project state and switching between projects)
-* MySql (for storing relational data)
+* MySQL (for storing relational data)
 * Redis (for storing key-value data)
 * ImageMagick (for cropping and resizing images)
 * RVM (for managing versions of the Ruby programming language)
