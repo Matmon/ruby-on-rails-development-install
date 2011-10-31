@@ -17,8 +17,8 @@ echo "Put Homebrew location earlier in PATH ..."
 export PATH='/usr/local/bin:$PATH'" >> ~/.zshrc
   source ~/.zshrc
 
-echo "Installing Postgres, a good open source relational database ..."
-  brew install postgres --no-python
+echo "Installing MySQL, a good open source relational database ..."
+  brew install mysql
 
 echo "Installing Redis, a good key-value database ..."
   brew install redis
@@ -39,4 +39,4 @@ echo "Installing RVM (Ruby Version Manager) ..."
 [[ -s '/Users/`whoami`/.rvm/scripts/rvm' ]] && source '/Users/`whoami`/.rvm/scripts/rvm'" >> ~/.zshrc
   source ~/.zshrc
 
-bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/ruby)
+bash < <(curl -s https://raw.github.com/Matmon/ruby-on-rails-development-install/master/ruby)
