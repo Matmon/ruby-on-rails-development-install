@@ -6,7 +6,7 @@ ruby-on-rails-development-install is a fork of set of https://github.com/thought
 Mac OS X
 --------
 
-First, install xCode or [GCC for OS X](https://github.com/kennethreitz/osx-gcc-installer). (requires OS X 10.6 or higher)
+First, install [GCC for OS X](https://github.com/kennethreitz/osx-gcc-installer). (requires OS X 10.6 or higher)
 
 Then, run this one-liner:
 
@@ -37,7 +37,6 @@ What it sets up
 * RVM (for managing versions of the Ruby programming language)
 * Ruby 1.9.2 stable (for writing general-purpose code)
 * Bundler gem (for managing Ruby libraries)
-* Rails gem (for writing web applications)
 * Heroku gem (for interacting with the Heroku API)
 * Taps gem (for pushing and pulling SQL databases between environments)
 * Mysql gem (for making Ruby talk to SQL databases)
